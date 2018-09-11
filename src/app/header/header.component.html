@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">
+    {{name}}
+  </a>
+
+  <button class="navbar-toggler offset-2" type="button"
+          (click)="toggleNavbar()">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse"
+       [ngClass]="{ 'show': navbarOpen }">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" *ngFor="let tab of tabs">
+        <a scrollTo class="nav-link" href="{{tab.link}}">{{tab.label}}</a>
+      </li>
+    </ul>
+    <ul *ngIf="!navbarOpen" class="navbar-nav float-right">
+      <li class="nav-item" *ngFor="let icon of icons">
+        <a target="_blank" class="nav-link" href="{{icon.link}}" title="{{icon.title}}"><i class="{{icon.class}}"></i></a>
+      </li>
+    </ul>
+  </div>
+</nav>
