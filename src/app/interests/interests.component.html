@@ -1,5 +1,6 @@
-<div *ngFor="interest of interests" class="card">
+<div class="card">
+  <img class="card-img-top" src="{{'/assets/images/' + interest.image_filename}}" alt="Card image cap">
   <div class="card-body">
-    {{interest.label}}
+    <h5 class="card-title">{{interest.label}}</h5>
   </div>
 </div>

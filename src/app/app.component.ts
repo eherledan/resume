@@ -31,4 +31,10 @@ export class AppComponent {
       {title: 'Baccalauréat Professionnel Systèmes Numériques et Electroniques', link: 'http://www.lycee-jean-jaures-rennes.fr/', date: '2013 - 2015',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula...'},
     ]};
+
+    interests: any = [{label: 'Cinéma', image_filename: 'once_upon_a_time_in_america.jpg'}, 
+    {label: 'Jeux-vidéo', image_filename: 'zelda_breath_of_the_wild.jpg'}, 
+    {label: 'Musique', image_filename: 'led_zeppelin.jpg'}, 
+    {label: 'Bande dessinée', image_filename: 'watchmen.jpg'}
+  ];
 }

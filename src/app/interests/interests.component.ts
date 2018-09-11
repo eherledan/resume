@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-interests',
@@ -6,8 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./interests.component.css']
 })
 export class InterestsComponent implements OnInit {
-
-  interests: any[] = [{label: 'test'}];
+  @Input() interest: any[];
   constructor() { }
 
   ngOnInit() {
