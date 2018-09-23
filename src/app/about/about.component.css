@@ -1,3 +1,15 @@
 h1 {
-          text-transform: uppercase;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.jumbotron {
+    background-image: url('/assets/images/jumbotron_background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+hr {
+    border-top: 1px solid #ffffff;
 }

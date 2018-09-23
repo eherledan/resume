@@ -9,16 +9,16 @@ export class HeaderComponent implements OnInit {
 
   name = 'Erwan Herledan';
   tabs: any[] = [
-    {label: 'Présentation', link: '#about'},
     {label: 'Compétences', link: '#skills'},
     {label: 'Expériences professionnelles', link: '#professionnal'},
     {label: 'Formations', link: '#education'},
+    {label: 'Ce que j\'aime', link: '#interests'},
     {label: 'Contact', link: '#contact-form'}
   ];
 
   icons: any[] = [
     {class: 'fa fa-github fa-2x', link: 'https://github.com/eherledan', title: 'Github'},
-    {class: 'fa fa-linkedin fa-2x', link: '', title: 'Linkedin'},
+    {class: 'fa fa-linkedin fa-2x', link: 'https://www.linkedin.com/in/erwan-herledan-8b64b8147/', title: 'Linkedin'},
     {class: 'fa fa-file fa-2x', link: '', title: 'Curriculum vitæ en PDF'}
   ];
 

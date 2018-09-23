@@ -5,23 +5,22 @@
       <app-about class="col-md-12" id="about"></app-about>
     </div>
     <div class="row" id="skills">
-      <app-skills class="col-md-6 pt-5" [skills]="skills_left"></app-skills>
-      <app-skills class="col-md-6 pt-5" [skills]="skills_right"></app-skills>
+      <app-skills class="col-md-6 pt-3" [skills]="skills_left"></app-skills>
+      <app-skills class="col-md-6 pt-3" [skills]="skills_right"></app-skills>
     </div>
-    <div class="row pt-5">
+    <div class="row pt-3">
       <app-timeline id="professionnal" [content]="professionnal" class="col-md-12" id="professionnal"></app-timeline>
     </div>
-    <div class="row pt-5">
+    <div class="row pt-3">
       <app-timeline id="education" [content]="education" class="col-md-12" id="education"></app-timeline>
     </div>
-    <h3><i class="fa fa-heart pt-5"></i>Ce que j'aime</h3>
-    <div class="row">
-      <app-interests *ngFor="let interest of interests" [interest]="interest" class="col-md-3"></app-interests>
+    <div class="row pt-3">
+      <app-interests [interests]="interests" class="px-3" id="interests"></app-interests>
     </div>
-    <h4 class="pt-5"><i class="fa fa-envelope"></i>Contact</h4>
-    <div class="row">
+    <div class="row pt-3">
       <app-contact-form id="contact-form" class="col-md-6"></app-contact-form>
       <app-contact-infos id="contact-infos" class="col-md-6"></app-contact-infos>
     </div>
   </div>
+  <app-footer></app-footer>
 </div>

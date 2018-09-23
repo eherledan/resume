@@ -1,10 +1,13 @@
 <div>
-  <h3><i class="{{content.icon}}"></i>{{content.title}}</h3>
-  <ul class="timeline">
-    <li *ngFor="let experience of content.experiences">
-      <a target="_blank" href="{{experience.link}}">{{experience.title}}</a>
-      <p class="float-right text-info">{{experience.date}}</p>
-      <p>{{experience.description}}</p>
-    </li>
-  </ul>
+  <h3 class="mt-4"><i class="{{content.icon}}"></i>{{content.title}}</h3>
+  <div class="card">
+    <ul class="timeline">
+      <li *ngFor="let experience of content.experiences">
+        <a target="_blank" href="{{experience.link}}">{{experience.title}}</a>
+        <p class="float-right text-info">{{experience.date}}</p>
+        <p class="school">{{experience.school}}</p>
+        <p>{{experience.description}}</p>
+      </li>
+    </ul>
+  </div>
 </div>

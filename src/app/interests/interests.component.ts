@@ -6,7 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./interests.component.css']
 })
 export class InterestsComponent implements OnInit {
-  @Input() interest: any[];
+  @Input() interests: any[];
   constructor() { }
 
   ngOnInit() {
