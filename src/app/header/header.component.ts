@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
     {label: 'Compétences', link: '#skills'},
     {label: 'Expériences professionnelles', link: '#professionnal'},
     {label: 'Formations', link: '#education'},
-    {label: 'Ce que j\'aime', link: '#interests'},
+    {label: 'Centres d\'intérêt', link: '#interests'},
     {label: 'Contact', link: '#contact-form'}
   ];
 

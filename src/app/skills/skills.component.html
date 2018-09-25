@@ -1,7 +1,9 @@
 <h3 class="mt-4"><i class="{{skills.icon}}"></i>{{skills.title}}</h3>
 <div class="card">
-  <div class="card-body" *ngFor="let skill of skills.content">
-    <h5 class="card-title">{{skill.label}}</h5>
-    <progressbar class="progress-striped active" type="{{skill.type}}" [value]="skill.percentage"></progressbar>
+  <div class="card-body">
+    <div class="skill-item" *ngFor="let skill of skills.content">
+        <h5 class="card-title">{{skill.label}}</h5>
+        <progressbar class="progress-striped active text-white" [ngClass]="skill.color" [value]="skill.percentage"></progressbar>
+    </div>
   </div>
 </div>

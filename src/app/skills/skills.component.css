@@ -1,0 +1,43 @@
+:host ::ng-deep .php bar {
+          background-color: #4f5d95;
+}
+
+:host ::ng-deep .js bar {
+          background-color: #f1e05a;
+}
+
+:host ::ng-deep .html bar {
+          background-color: #e34c26;
+}
+
+:host ::ng-deep .angular bar {
+          background-color: #dd0031;
+}
+
+:host ::ng-deep .vue bar {
+          background-color: #41b883;
+}
+
+:host ::ng-deep .react bar {
+          background-color: #61dafb;
+}
+
+:host ::ng-deep .laravel bar {
+          background-color: #fa503b;
+}
+
+:host ::ng-deep .symfony bar {
+          background-color: #4d8400;
+}
+
+:host ::ng-deep .mysql bar {
+          background-color: #e48e00;
+}
+
+.skill-item {
+          margin-bottom: 15px;
+}
+
+.progress {
+          height: 0.5rem;
+}

@@ -10,6 +10,18 @@ export class SkillsComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    this.animateProgressBar();
+  }
+
+  animateProgressBar() {
+    const content = this.skills.content;
+    content.forEach(function(element) {
+      const percentage = element.percentage;
+      element.percentage = 0;
+      setTimeout(function () {
+        element.percentage = percentage;
+      }, 500);
+    });
   }
 
 }

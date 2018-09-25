@@ -19,3 +19,7 @@ body {
     background-color: #efefef;
     /* background-image: url("/assets/images/background.png") */
 }
+
+h3 {
+    text-transform: uppercase;
+}

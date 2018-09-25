@@ -4,6 +4,7 @@ h1 {
 }
 
 .jumbotron {
+    background-color: #030304;
     background-image: url('/assets/images/jumbotron_background.png');
     background-repeat: no-repeat;
     background-size: cover;
