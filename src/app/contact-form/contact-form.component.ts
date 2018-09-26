@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-contact-form',
@@ -7,13 +8,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactFormComponent implements OnInit {
 
-  constructor() { }
+  name: string;
+  email: string;
+  message: string;
+
+  constructor(private http: HttpClient) { }
 
   ngOnInit() {
   }
 
   sendEmail() {
-
+    this.http.post('http://localhost:8000/api/email', {email: 'erwan.herledan@outlook.fr', name: 'Erwan Herledan', message: 'Yo, ienb ?'}).subscribe(
+      res => {
+          const response = res.text();
+          console.log(response);
+      }
+    );
   }
-
 }

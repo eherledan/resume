@@ -16,6 +16,8 @@ import { ContactInfosComponent } from './contact-infos/contact-infos.component';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import { FooterComponent } from './footer/footer.component';
 import { InterestsComponent } from './interests/interests.component';
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { InterestsComponent } from './interests/interests.component';
     BsDropdownModule.forRoot(),
     ProgressbarModule.forRoot(),
     AngularFontAwesomeModule,
-    AccordionModule.forRoot()
+    AccordionModule.forRoot(),
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
