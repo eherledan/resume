@@ -26,6 +26,9 @@
           <textarea class="form-control" id="message" name="message" [(ngModel)]="message" placeholder="Message" required></textarea>
         </div>
       </div>
+      <alert *ngIf="alert" [type]="alert.type" [class]="alert.class">
+        {{alert.content}}
+      </alert>
       <div class="text-center">
         <input value="Envoyer" class="btn" type="submit">
       </div>

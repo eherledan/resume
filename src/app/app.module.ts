@@ -10,7 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { SkillsComponent } from './skills/skills.component';
 import {VerticalTimelineModule} from 'angular-vertical-timeline';
-import {BsDropdownModule, CollapseModule, ProgressbarModule, AccordionModule} from 'ngx-bootstrap';
+import {BsDropdownModule, CollapseModule, ProgressbarModule, AccordionModule, AlertModule} from 'ngx-bootstrap';
 import { ContactFormComponent } from './contact-form/contact-form.component';
 import { ContactInfosComponent } from './contact-infos/contact-infos.component';
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
@@ -42,7 +42,8 @@ import { FormsModule } from '@angular/forms';
     AngularFontAwesomeModule,
     AccordionModule.forRoot(),
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    AlertModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

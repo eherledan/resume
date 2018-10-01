@@ -23,3 +23,7 @@ body {
 h3 {
     text-transform: uppercase;
 }
+
+.progress-bar {
+    font-weight: bold;
+}

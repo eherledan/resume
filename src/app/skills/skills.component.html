@@ -3,7 +3,7 @@
   <div class="card-body">
     <div class="skill-item" *ngFor="let skill of skills.content">
         <h5 class="card-title">{{skill.label}}</h5>
-        <progressbar class="progress-striped active text-white" [ngClass]="skill.color" [value]="skill.percentage"></progressbar>
+        <progressbar class="progress-striped active text-white" [ngClass]="skill.color" [value]="skill.percentage">{{skill.percentage}}%</progressbar>
     </div>
   </div>
 </div>

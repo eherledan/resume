@@ -15,11 +15,11 @@ export class AppComponent {
     ]};
 
   professionnal: any = {title: 'Expériences professionelles', icon: 'fa fa-suitcase',
-    experiences: [{title: 'Acantic', link: 'https://www.acantic.com/', date: 'Octobre 2017 - Septembre 2018',
+    experiences: [{title: 'Acantic', link: 'https://www.acantic.com/', image_filename: 'acantic.jpg', date: 'Octobre 2017 - Septembre 2018',
       description: 'Développement d\'un extranet pour l\'association Gîtes de France en Bretagne permettant de faciliter les communications entre les propriétaires labelisés (Base Wordpress, PHP/MySQL, JavaScript). Ajout de différents modules pour une solution de locations de salles pour la communauté de commune Le Mené (PHP/MySQL).'},
-      {title: 'Groupama Supports & Services', link: 'http://www.groupama.com/fr/fiche/groupama-supports-et-services/', date: 'Janvier 2017 - Février 2017',
+      {title: 'Groupama Supports & Services', link: 'http://www.groupama.com/fr/fiche/groupama-supports-et-services/', image_filename: 'groupama.png', date: 'Janvier 2017 - Février 2017',
         description: 'Développement d\'un site web de gestion des exercices PSI (plan de secours informatique) en PHP/MySQL intégrant un suivi des exercices et la production des comptes rendus.'},
-      {title: 'Lycée Professionnel Jean Jaurès', link: 'http://www.lycee-jean-jaures-rennes.fr/', date: 'Mai 2016 - Juin 2016',
+      {title: 'Lycée Professionnel Jean Jaurès', link: 'http://www.lycee-jean-jaures-rennes.fr/', image_filename: 'jean-jaures.jpg', date: 'Mai 2016 - Juin 2016',
         description: 'Refonte structurelle et graphique du site web du lycée basée sur le CMS Joomla. Formation aux utilisateurs à l\'outil.'},
     ]};
 

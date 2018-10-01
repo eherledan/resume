@@ -42,3 +42,9 @@ ul.timeline > li:before {
 p {
   margin: 0;
 }
+
+img {
+  float: left;
+  height: 90px;
+  margin-right: 20px;
+}

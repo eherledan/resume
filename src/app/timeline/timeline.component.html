@@ -3,6 +3,7 @@
   <div class="card">
     <ul class="timeline">
       <li *ngFor="let experience of content.experiences">
+        <img src="{{'/assets/images/timeline/' + experience.image_filename}}" alt="">
         <a target="_blank" href="{{experience.link}}">{{experience.title}}</a>
         <p class="float-right text-info">{{experience.date}}</p>
         <p class="school">{{experience.school}}</p>

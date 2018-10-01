@@ -1,3 +1,7 @@
 .fa:not(.title) {
     margin-right: 0px;
 }
+
+textarea {
+    min-height: 50px;
+}
